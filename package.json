@@ -6,6 +6,7 @@
 "scripts": {
     "dev": "serve dist -p 3000",
     "build": "mkdir -p dist && cp index.html dist/",
+    "tauri": "tauri",
     "lint": "echo lint ok",
     "preview": "serve dist -p 4173"
 },
