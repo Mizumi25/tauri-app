@@ -14,5 +14,3 @@ jobs:
           node-version: 20
       - run: npm install
       - uses: tauri-apps/tauri-action@v0
-        with:
-          args: --target linux --target windows --target macos
